@@ -2,8 +2,8 @@
 
 ## Overview
 
-This project demonstrates parameter-efficient adaptation of a pretrained Large Language Model using **QLoRA-based fine-tuning techniques**.  
-The objective is to enable supervised training of large transformer models under **low-resource compute constraints** by leveraging low-bit quantization and lightweight trainable adapters.
+This project demonstrates parameter efficient adaptation of a pretrained Large Language Model using **QLoRA based fine-tuning techniques**.  
+The objective is to enable supervised training of large transformer models under **low-resource compute constraints** by leveraging low bit quantization and lightweight trainable adapters.
 
 The implementation uses the HuggingFace ecosystem to build an end-to-end fine-tuning workflow including dataset preprocessing, tokenizer mapping, training configuration, and prompt-based generation evaluation.
 
@@ -12,7 +12,7 @@ The implementation uses the HuggingFace ecosystem to build an end-to-end fine-tu
 ## Motivation
 
 Training or fully fine-tuning large language models requires significant GPU memory and compute.  
-Parameter-efficient methods such as **LoRA and QLoRA** allow targeted adaptation of pretrained models by updating a small subset of trainable parameters while keeping the base model frozen.
+Parameter efficient methods such as **LoRA and QLoRA** allow targeted adaptation of pretrained models by updating a small subset of trainable parameters while keeping the base model frozen.
 
 This project explores:
 
